@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercadinho XYZ</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+</head>
+<body>
+    
+</body>
+</html>
+<header>
+    <h1>Minimercado XYZ</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html" rel="next" target="_self">Menu</a></li>
+            <li><a href="servicos.html" rel="next" target="_self">Serviços</a></li>
+            <li><a href="contato.html" rel="next" target="_self">Contato</a></li>
+            <li><a href="cadastro.html" rel="next" target="_self">Cadastro</a></li>
+        </ul>
+    </nav>
+    <hr>
+</header>
+<body>
+    <h1>Cadastro do Cliente</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label>nome</label><br>
+                <input type="text" name="nome" required><br>
+            <label>sobrenome</label><br>
+                <input type="text" name="sobrenome" required><br>
+            <label>data nascimenento</label><br>
+                <input type="date" required><br>
+            <label>endereço</label><br>
+                <input type="text" required><br>
+            <label>CPF</label><br>
+                <input type="text" required><br>
+            <fieldset>
+                <legend>sexo</legend>
+                <label for="sexo">masculino</label>
+                    <input type="checkbox" value="masculino"><br>
+                <label for="sexo">feminino</label>
+                    <input type="checkbox" value="feminino"><br>
+            </fieldset><br>
+            <label>email</label><br>
+            <input type="email" name="email" required><br>
+            <label>senha</label><br>
+            <input type="password" name="senha" minlength="8" required><br>
+            <label>Telefone</label><br>
+            <input type="tel" name="fone" placeholder="xx xxxxx-xxxx" pattern="[0-9]{11}" required><br>
+            <label>Quantas vezes por semana você vai ao mercado:</label>
+            <input type="number" name="qtd vzs vai ao mercado" min="0" max="7"><br>
+            <button type="reset">cancela</button>
+            <button type="submit">envia</button>
+        </fieldset>
+    </form>
+
+</body>
+<footer>
+    <hr>
+    <p>&copy; 2024 Minimercado XYZ. Todos os direitos reservados.</p>
+    <p>Contato: email@minimercado.com | Telefone: (00) 1234-5678</p>
+    <nav>
+        <a href="servicos.html">Serviços</a> | 
+        <a href="contato.html">Contato</a>
+    </nav>
+</footer>
+</html>
